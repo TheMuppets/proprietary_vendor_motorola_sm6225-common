@@ -813,7 +813,6 @@ PRODUCT_PACKAGES += \
     uimgbaservice \
     ImsRcsService \
     QtiTelephonyService \
-    datastatusnotification \
     WfdService \
     dpmserviceapp \
     ims \
