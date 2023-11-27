@@ -1668,7 +1668,7 @@
 		</mappings>
 	</device>
 
-	<device name="devon" version="0.7">
+	<device name="devon" version="0.8">
 
 		<!-- Features list variable hardware components for this device -->
 		<features>
@@ -1746,6 +1746,7 @@
 			<string-array name="storage/.range">
 				<item>64GB</item>
 				<item>128GB</item>
+				<item>256GB</item>
 			</string-array>
 
 			<string name="dualsim/.auto">default=true</string>
