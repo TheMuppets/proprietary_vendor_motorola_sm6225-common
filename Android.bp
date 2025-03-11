@@ -5,6 +5,7 @@
 soong_namespace {
     imports: [
         "device/motorola/sm6225-common",
+        "hardware/motorola",
         "hardware/qcom-caf/sm8250",
         "hardware/qcom-caf/wlan",
         "vendor/qcom/opensource/dataservices",
@@ -5313,6 +5314,7 @@ cc_prebuilt_library_shared {
                 "libsensorndkbridge",
                 "libqmimotext",
                 "liblog",
+                "libqsap_sdk",
                 "vendor.qti.hardware.bluetooth_sar@1.1",
                 "libhidlbase",
                 "libxml2",
@@ -5324,7 +5326,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
