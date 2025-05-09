@@ -11606,39 +11606,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "cnss-daemon",
-    owner: "motorola",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/cnss-daemon",
-            ],
-            shared_libs: [
-                "libcutils",
-                "liblog",
-                "libqmi_cci",
-                "libqmi_common_so",
-                "libnl",
-                "libcld80211",
-                "libperipheral_client",
-                "libmdmdetect",
-                "libqmiservices",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "dpmQmiMgr",
     owner: "motorola",
     target: {
